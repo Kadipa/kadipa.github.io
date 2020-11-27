@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Bachelor of Computer Science in Knowledge Engineering, University of Information Technology(UIT), 2017
+* Master of Engineering in Computational Intelligence Systems(CIS),King Mongkut's Institute of Technology Ladkrabang(KMITL), 2020
+
 
 Work experience
 ======
