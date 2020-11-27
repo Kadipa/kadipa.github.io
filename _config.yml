@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Kadipa Aung Myo Han"
-  avatar           : Kadipa.png
+  avatar           : "Kadipa.png"
   bio              : "Master of Engineering in Computational Intelligence Systems(CIS),KMITL"
   location         : "Yangon,Myanmar"
   employer         :
