@@ -28,6 +28,7 @@ Work experience
 
 * August-December,2018: Teaching Assistant
   * International College, KMITL
+  
  
 
 Publications
