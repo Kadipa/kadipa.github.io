@@ -17,24 +17,18 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* June-December,2016: Researcher/Intern
+  * Bindez Pte Ltd.
+  * Duties included: Myanmar NLP preprocessing tools
+  * Supervisor: Dr Thin Thin Wai
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* May-September,2017: Intern
+  * Vision to Motion Co Ltd
+  * Duties included: Elottery Project with ROR
+
+* August-December,2018: Teaching Assistant
+  * International College, KMITL
+ 
 
 Publications
 ======
@@ -42,18 +36,3 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
