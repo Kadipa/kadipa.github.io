@@ -17,17 +17,18 @@ Education
 
 Work experience
 ======
-* June-December,2016: Researcher/Intern
-  * Bindez Pte Ltd.
+* June-December, 2016: Researcher/Intern
+  * [Bindez Pte. Ltd](https://bindez.com/)
   * Duties included: Myanmar NLP preprocessing tools
-  * Supervisor: Dr Thin Thin Wai
+  * Supervisor: Dr. Thin Thin Wai
 
-* May-September,2017: Intern
-  * Vision to Motion Co., Ltd
+* May-September, 2017: Intern
+  * [Vision to Motion Co., Ltd](https://www.v2m.jp/)
   * Duties included: Elottery Project with ROR
+  * Supervisor: U Aye Kyaw Hlaing
 
-* August-December,2018: Teaching Assistant
-  * International College, KMITL
+* August-December, 2018: Teaching Assistant
+  * [International College, KMITL](https://www.ic.kmitl.ac.th/)
   * Subject: Distributed Computing
   * Lecturer: Dr. Yunyong Teng-amnuay
   
