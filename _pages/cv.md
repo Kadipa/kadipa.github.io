@@ -23,11 +23,14 @@ Work experience
   * Supervisor: Dr Thin Thin Wai
 
 * May-September,2017: Intern
-  * Vision to Motion Co Ltd
+  * Vision to Motion Co., Ltd
   * Duties included: Elottery Project with ROR
 
 * August-December,2018: Teaching Assistant
   * International College, KMITL
+  * Subject: Distributed Computing
+  * Lecturer: Dr. Yunyong Teng-amnuay
+  
   
  
 
