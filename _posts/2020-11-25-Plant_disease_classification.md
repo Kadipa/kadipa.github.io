@@ -1,7 +1,7 @@
 ---
 title: 'Plant Disease Classification Using Convolutional Neural Networks(CNN)'
 date: 2020-11-25
-permalink: /posts/2020/11/plant_disese_classification
+permalink: /posts/2020/11/plant_disese_classification/
 tags:
   - Plant Disease 
   - Classification
