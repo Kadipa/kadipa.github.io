@@ -19,7 +19,7 @@ tags:
 ဒီပို့စ်မှာတော့ PlantVillage datasetကြီးထဲကမှ tomato ပတ်သက်တဲ့ class ၄ခုကို ထုတ်ပြီး စမ်းပြချင်ပါတယ်။ "Healthy" classရယ် "Sptoria_leaf_spot", "Spider_mites", "Target_Spot"ဆိုတဲ့ disease ၃မျိုးရယ် ထုတ်ပြီး Label ၄ခုအတွက် plant disease classification လုပ်ပြမှာပါ။
 Datasetပုံစံက ဒီလိုမျိုး ရှိတာပါ။
 
-![Plant Dataset](https://github.com/Kadipa/kadipa.github.io/blob/master/images/1.png)
+![Plant Dataset](https://kadipa.github.io/images/1.png)
 
 Dataset ရှိတဲ့ directory ကနေ လှမ်းဖတ်ပြီး array တခုထဲ ထည့်လိုက်ပါမယ်။ Data ကို ဖတ်ပြီးရင် outputက ဒီလိုမျိုးပြပါမယ်။ Data array ရဲ့ lengthက image အားလုံးပေါင်းရဲ့ အရေအတွက်ပါ။ ၆၄၄၂ ပုံ ရှိပါတယ်။
 
