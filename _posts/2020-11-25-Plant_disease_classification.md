@@ -49,9 +49,11 @@ Model train နေတုန်း overfit ဖြစ် မဖြစ် သိစ
 
 Classတခုချင်းစီအတွက် ဘယ်လောက် မှန်မှန် predict လုပ်နိုင်လဲ သိချင်လို့ Confusion Matrix လည်း ထုတ်ကြည့်ပါမယ်။
 
-ဒီပိုစ့် Codeအပြည့်အစုံကို ဒီမှာ ကြည့်နိုင်ပါတယ်။ https://github.com/Kadipa/Plant_diesase_classification
+ဒီပိုစ့် Codeအပြည့်အစုံကို ဒီမှာ ကြည့်နိုင်ပါတယ်။
+https://github.com/Kadipa/Plant_diesase_classification
 
 References
 
 (1) https://keras.io/api/applications/
+
 (2) https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
