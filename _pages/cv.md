@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Bachelor of Computer Science in Knowledge Engineering, University of Information Technology(UIT), 2017
-* Master of Engineering in Computational Intelligence Systems(CIS),King Mongkut's Institute of Technology Ladkrabang(KMITL), 2020
+* Master of Engineering in Computational Intelligence Systems(CIS), King Mongkut's Institute of Technology Ladkrabang(KMITL), 2020
 
 
 Work experience
@@ -31,13 +31,4 @@ Work experience
   * [International College, KMITL](https://www.ic.kmitl.ac.th/)
   * Subject: Distributed Computing
   * Lecturer: Dr. Yunyong Teng-amnuay
-  
-  
- 
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
