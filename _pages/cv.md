@@ -32,3 +32,12 @@ Work experience
   * Subject: Distributed Computing
   * Lecturer: Dr. Yunyong Teng-amnuay
   
+  
+Award
+=====
+International College, KMITL University Scholarship (FULLY FUNDED FOR MASTER'S DEGREE)
+
+Certificate
+======
+Information Technology Passport Examination(IT passport)
+Fundamental Information Technology Engineer Examination(FE)
