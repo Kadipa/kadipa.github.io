@@ -35,9 +35,9 @@ Work experience
   
 Award
 =====
-International College, KMITL University Scholarship (FULLY FUNDED FOR MASTER'S DEGREE)
+* International College, KMITL University Scholarship (FULLY FUNDED FOR MASTER'S DEGREE)
 
 Certificate
 ======
-Information Technology Passport Examination(IT passport)
-Fundamental Information Technology Engineer Examination(FE)
+* Information Technology Passport Examination(IT passport)
+* Fundamental Information Technology Engineer Examination(FE)
