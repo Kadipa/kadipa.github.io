@@ -14,7 +14,7 @@ tags:
 (၁) Data ဖတ်ခြင်း
 
 
-ပထမဦးစွာ datasetအကြောင်း ပြောချင်ပါတယ်။ PlantVillage datasetဆိုတာက အပင်မျိုးစုံရဲ့ disease တော်တော်များများကို စုထားတဲ့ datasetကြီး ဖြစ်ပါတယ်။Dataset ကို https://github.com/spMohanty/PlantVillage-Dataset/tree/master/raw/color ကနေDown လို့ ရပါတယ်။
+ပထမဦးစွာ datasetအကြောင်း ပြောချင်ပါတယ်။ PlantVillage datasetဆိုတာက အပင်မျိုးစုံရဲ့ disease တော်တော်များများကို စုထားတဲ့ datasetကြီး ဖြစ်ပါတယ်။Dataset ကို [Plant Village Dataset](https://github.com/spMohanty/PlantVillage-Dataset/tree/master/raw/color) ကနေDown လို့ ရပါတယ်။
 
 ဒီပို့စ်မှာတော့ PlantVillage datasetကြီးထဲကမှ tomato ပတ်သက်တဲ့ class ၄ခုကို ထုတ်ပြီး စမ်းပြချင်ပါတယ်။ "Healthy" classရယ် "Sptoria_leaf_spot", "Spider_mites", "Target_Spot"ဆိုတဲ့ disease ၃မျိုးရယ် ထုတ်ပြီး Label ၄ခုအတွက် plant disease classification လုပ်ပြမှာပါ။
 Datasetပုံစံက ဒီလိုမျိုး ရှိတာပါ။
