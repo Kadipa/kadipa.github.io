@@ -12,7 +12,9 @@ redirect_from:
 Personal Information
 =======
 Full Name: Kadipa Aung Myo Han
+
 Place of Birth: Kyaikhto, Mon State, Myanmar
+
 Nationality: Myanmar
 
 Education
