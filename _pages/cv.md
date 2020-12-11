@@ -19,7 +19,7 @@ Work experience
 ======
 * June-December, 2016: Researcher/Intern
   * [Bindez Pte. Ltd](https://bindez.com/)
-  * Duties included: Myanmar NLP preprocessing tools
+  * Duties included: Myanmar NLP preprocessing tools (Thadin App)
   * Supervisor: Dr. Thin Thin Wai
 
 * May-September, 2017: Intern
@@ -39,5 +39,15 @@ Award
 
 Certificate
 ======
-* Information Technology Passport Examination(IT passport)
-* Fundamental Information Technology Engineer Examination(FE)
+* Information Technology Passport Examination(IT passport, 2015)
+* Fundamental Information Technology Engineer Examination(FE, 2017)
+
+Project and Activity
+======
+* Paddy Plant Diseas Identification Using Rule Base Approach (UIT's Open House,2016)
+* Myanmar NLP preprocessing tools (Bindez, 2016)
+* Nearest Delivery Service Business Plan (UniHack Challenge,2016)
+* Big Data Analysis Course (Acroquest, 2016)
+* E-lottery Project (V2M,2017)
+* Plant Nutrient Defenciency Identification Using Deep Learning (Master Thesis, 2018 -2020)
+* Sentiment Analysis Using Twitter Data (International Summer School on Machine Learning for Busineess Applications,2019)
