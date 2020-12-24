@@ -19,8 +19,8 @@ Nationality: Myanmar
 
 Education
 ======
-* Bachelor of Computer Science in Knowledge Engineering, University of Information Technology(UIT), 2017
-* Master of Engineering in Computational Intelligence Systems(CIS), King Mongkut's Institute of Technology Ladkrabang(KMITL), 2020
+* Bachelor of Computer Science in Knowledge Engineering, University of Information Technology (UIT), 2017
+* Master of Engineering in Computational Intelligence Systems (CIS), King Mongkut's Institute of Technology Ladkrabang (KMITL), 2020
 
 
 Work experiences
