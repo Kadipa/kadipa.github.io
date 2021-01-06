@@ -39,7 +39,7 @@ Work experiences
   * [International College, KMITL](https://www.ic.kmitl.ac.th/)
   * Subject: Distributed Computing
   * Lecturer: Dr. Yunyong Teng-amnuay
-* Current: Data Scientist 
+* January-Present: Data Scientist 
   * [Hexcode Technologies.Inc](http://www.hexyn.com/)
   * Duties included: Data analysis and predictive modeling projects
   * Supervisor: U Phyo Arkar Lwin
