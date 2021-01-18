@@ -40,7 +40,7 @@ Work experiences
   * Subject: Distributed Computing
   * Lecturer: Dr. Yunyong Teng-amnuay
 * Present: Data Scientist 
-  * [Hexcode Technologies.Inc](http://www.hexyn.com/)
+  * [Hexcode Technologies. Inc](http://www.hexyn.com/)
   * Duties included: Data analysis and predictive modeling projects
   * Supervisor: U Phyo Arkar Lwin
   
