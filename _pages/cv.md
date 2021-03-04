@@ -23,7 +23,7 @@ Education
 * Master of Engineering in Computational Intelligence Systems (CIS), King Mongkut's Institute of Technology Ladkrabang (KMITL), 2020
 
 
-Work experiences
+Work Experiences
 ======
 * June-December, 2016: Researcher/Intern
   * [Bindez Pte. Ltd](https://bindez.com/)
