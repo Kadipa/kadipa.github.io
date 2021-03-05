@@ -31,7 +31,7 @@ Work Experiences
   * Supervisor: Dr. Thin Thin Wai
 
 * May-September, 2017: Intern
-  * [Vision to Motion Co., Ltd](https://www.v2m.jp/)
+  * [Vision to Motion Myanmar Co., Ltd](https://www.v2m.jp/)
   * Duties included: Elottery Project with ROR
   * Supervisor: U Aye Kyaw Hlaing
 
