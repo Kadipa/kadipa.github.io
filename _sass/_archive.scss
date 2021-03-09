@@ -202,6 +202,7 @@
   &--right {
     @include full();
     font-size: 1.25rem;
+     color: #964B00;
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -225,6 +226,7 @@
   &--center {
     @include full();
     font-size: 1.25rem;
+     color: #964B00;
 
     .archive__item-teaser {
       margin-bottom: 2em;
