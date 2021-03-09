@@ -14,4 +14,4 @@ In July 2020, I completed my master's degree in Computational Intelligence Syste
 My research interests are computer vision, machine learning, deep learning, and natural language processing. Click [here](https://kadipa.github.io/files/Resume_Template__Copy_ (2).pdf
 ) to view my up-to-date resume. 
 
-Fun Facts: Iced Ecpresso :cup_with_straw: makes me complete. Cats :heart_eyes_cat: are my besties. Fall in love with food :yum:.
+Fun Facts: Iced Ecpresso :coffee: makes me complete. Cats :heart_eyes_cat: are my besties. Fall in love with food :yum:.
