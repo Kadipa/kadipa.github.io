@@ -15,7 +15,7 @@ Full Name: Kadipa Aung Myo Han
 
 Place of Birth: Kyaikhto, Mon State, Myanmar
 
-Nationality: Myanmar :myanmar:
+Nationality: Myanmar (:myanmar:)
 
 Education
 ======
