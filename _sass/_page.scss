@@ -46,7 +46,7 @@
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
-  color: #964B00;
+  
 }
 
 .page__content {
@@ -91,6 +91,7 @@
     margin-top: 1em;
     font-family: $sans-serif;
     font-weight: bold;
+     color: #964B00;
     
   }
 
@@ -98,7 +99,7 @@
     margin-left: 1em;
     font-family: $sans-serif;
     font-size: $type-size-6;
-    
+    color: #964B00;
   }
 
   .small {
