@@ -42,7 +42,7 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
-  color: #964B00;
+  
 
   a + a {
     opacity: 0.5;
@@ -123,7 +123,7 @@
   .archive__item-title {
     margin-top: 0.5em;
     font-size: $type-size-5;
-     color: #964B00;
+     
   }
 
   .archive__item-excerpt {
@@ -202,7 +202,7 @@
   &--right {
     @include full();
     font-size: 1.25rem;
-     color: #964B00;
+     
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -226,7 +226,7 @@
   &--center {
     @include full();
     font-size: 1.25rem;
-     color: #964B00;
+     
 
     .archive__item-teaser {
       margin-bottom: 2em;
