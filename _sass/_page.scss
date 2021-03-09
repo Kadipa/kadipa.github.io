@@ -91,7 +91,7 @@
     margin-top: 1em;
     font-family: $sans-serif;
     font-weight: bold;
-     color: #964B00;
+     
     
   }
 
@@ -159,7 +159,7 @@
 
     .page__title {
       font-size: $type-size-2;
-       
+       color: #964B00;
 
       @include breakpoint($small) {
         font-size: $type-size-1;
@@ -226,6 +226,7 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+   color: #964B00;
 }
 
 
@@ -252,6 +253,7 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+   color: #964B00;
 }
 
 
