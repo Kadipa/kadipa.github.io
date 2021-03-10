@@ -51,9 +51,9 @@ Award
 
 Certificates
 ======
-* Information Technology Passport Examination (IT passport, 2015)
-* Big Data Course (Acroquest Myanmar Co.,Ltd, 2016)
-* Fundamental Information Technology Engineer Examination (FE, 2017)
+* Information Technology Passport Examination ([IT passport](https://itpec.org/about/itpec-common-exam.html), 2015)
+* Big Data Course ([Acroquest Myanmar Co.,Ltd](https://www.acromyanmar.com/), 2016)
+* Fundamental Information Technology Engineer Examination ([FE](https://itpec.org/about/itpec-common-exam.html), 2017)
 
 Projects and Activities
 ======
