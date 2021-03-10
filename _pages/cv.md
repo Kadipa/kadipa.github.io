@@ -76,5 +76,5 @@ Volunteers
 
 Labs
 =====
-* AI Lab (UIT, 2016-2017)
-* [KMITL Computer Vision Laboratory](https://sites.google.com/a/kmitl.ac.th/computer-vision-laboratory/members)(2018-2020)
+* AI Lab (UIT, December 2015- September 2017)
+* [KMITL Computer Vision Laboratory](https://sites.google.com/a/kmitl.ac.th/computer-vision-laboratory/members) (August 2018- July 2020)
