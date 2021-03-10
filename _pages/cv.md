@@ -73,3 +73,8 @@ Volunteers
 =====
 * I-women App (UNDP, 2016)
 * Women In AI (WAI, 2021)
+
+Labs
+=====
+* AI Lab (UIT, 2016-2017)
+* [KMITL Computer Vision Laboratory](https://sites.google.com/a/kmitl.ac.th/computer-vision-laboratory/members)(2018-2020)
