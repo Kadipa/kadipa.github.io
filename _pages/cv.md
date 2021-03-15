@@ -82,3 +82,7 @@ Labs
 =====
 * AI Lab (UIT, December 2015- September 2017)
 * [KMITL Computer Vision Laboratory](https://sites.google.com/a/kmitl.ac.th/computer-vision-laboratory/members) (August 2018- July 2020)
+
+Recent work
+====
+* [Kaggle Competition](https://www.kaggle.com/c/hpa-single-cell-image-classification/overview) with [Su](https://www.sumyatnoeme.com/)
