@@ -92,7 +92,7 @@
       }
 
       &.current {
-        color: #fff;
+        color: #000000;
         background: $primary-color;
       }
 
@@ -374,7 +374,7 @@
   color: $gray;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background-color: #fff;
+  background-color: #000000;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   box-shadow: $box-shadow;
