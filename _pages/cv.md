@@ -32,7 +32,7 @@ Work Experiences
 * June-December, 2016: Researcher/Intern
   * [Bindez Pte. Ltd](https://bindez.com/)
   * Duties included: Myanmar NLP preprocessing tools (Thadin App)
-  * Supervisor: Dr. Thin Thin Wai
+  
 
 * May-September, 2017: Intern
   * [Vision to Motion Myanmar Co., Ltd](https://www.v2m.jp/)
