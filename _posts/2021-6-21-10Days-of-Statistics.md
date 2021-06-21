@@ -1,4 +1,4 @@
---
+---
 title: 'Statistics'
 date: 2021-6-21
 permalink: /posts/2021/6/Statistics
