@@ -71,7 +71,7 @@ Projects and Activities
 * Syllable break (Final Term Paper, 2017)
 * E-lottery Project (V2M, 2017)
 * Plant Nutrient Defenciencies Identification Using Deep Learning (Master Thesis, 2018-2020)
-* Sentiment Analysis Using Twitter Data (International Summer School on Machine Learning for Busineess Applications, 2019)
+* Sentiment Analysis Using Twitter Data (International Summer School on Machine Learning for Business Applications, 2019)
 
 Volunteers
 =====
