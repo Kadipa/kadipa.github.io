@@ -61,7 +61,7 @@ Certificates
 
 Projects and Activities
 ======
-* Paddy Plant Diseas Identification Using Rule Base Approach (UIT's Open House, 2016)
+* Paddy Plant Diseases Identification Using Rule Base Approach (UIT's Open House, 2016)
 * Asia Yangon National Programming Contest (ICPC, 2016)
 * Myanmar NLP preprocessing tools (Bindez, 2016)
 * Nearest Delivery Service Business Plan (UniHack Challenge, 2016)
@@ -70,7 +70,7 @@ Projects and Activities
 * Unicode to Zawgyi converter (Field Study/Myanmar Computer Federation, 2016)
 * Syllable break (Final Term Paper, 2017)
 * E-lottery Project (V2M, 2017)
-* Plant Nutrient Defenciencies Identification Using Deep Learning (Master Thesis, 2018-2020)
+* Plant Nutrient Deficiencies Identification Using Deep Learning (Master Thesis, 2018-2020)
 * Sentiment Analysis Using Twitter Data (International Summer School on Machine Learning for Business Applications, 2019)
 
 Volunteers
@@ -85,4 +85,4 @@ Labs
 
 Recent work
 ====
-* [Kaggle Competition](https://www.kaggle.com/c/hpa-single-cell-image-classification/overview) with [Su](https://www.sumyatnoeme.com/)
+* AWS Machine Learning Scholarship #UdacityAWSScholars #poweredbyAWS
