@@ -52,6 +52,7 @@ Work Experiences
 Award
 =====
 * International College, KMITL University Scholarship (FULLY FUNDED FOR MASTER'S DEGREE)
+* AWS Machine Learning Scholarships #UdacityAWSScholars #poweredbyAWS
 
 Certificates
 ======
@@ -86,4 +87,4 @@ Labs
 
 Recent work
 ====
-* AWS Machine Learning Scholarship #UdacityAWSScholars #poweredbyAWS
+* AWS Machine Learning Foundation Course (28 June - 11 October, 2021) 
