@@ -58,6 +58,7 @@ Certificates
 * Information Technology Passport Examination ([IT passport](https://itpec.org/about/itpec-common-exam.html), 2015)
 * Big Data Course ([Acroquest Myanmar Co.,Ltd](https://www.acromyanmar.com/), 2016)
 * Fundamental Information Technology Engineer Examination ([FE](https://itpec.org/about/itpec-common-exam.html), 2017)
+* Problem Solving Intermediate ([HackerRank](https://www.hackerrank.com/certificates/a1469d5fe2c2), 2021)
 
 Projects and Activities
 ======
