@@ -692,11 +692,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
 
-.container{
-  display: flex;
-  justify-content: center;
-  padding: 80px;
-}
 
 .square:hover {
     -webkit-transform: translate(20px, -10px);
