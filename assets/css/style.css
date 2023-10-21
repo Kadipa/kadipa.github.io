@@ -902,16 +902,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
 
-
 .square-extra {
     width: 460px;
     height: 430px;
     background: white;
     border-radius: 4px;
     box-shadow: 0px 20px 50px #D9DBDF;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+
 }
 
 .mask-extra {
