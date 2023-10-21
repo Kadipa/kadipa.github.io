@@ -911,11 +911,20 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 .square-extra:hover {
+    -webkit-transform: translate(10px, -10px);
+    -ms-transform: translate(10px, -10px);
+    transform: translate(10px, -10px);
     -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-    border: 20px transparent;
-    /* Add the same transparent border on hover */
 }
+
+/* Exclude button from the transform effect */
+.square-extra:hover .button-extra {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
 
 
 .mask-extra {
