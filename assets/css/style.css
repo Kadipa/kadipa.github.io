@@ -897,19 +897,26 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     padding: 80px;
 }
 
-.square-extra:hover {
-    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-}
-
 .square-extra {
     width: 460px;
     height: 430px;
     background: white;
     border-radius: 4px;
     box-shadow: 0px 20px 50px #D9DBDF;
-
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 20px transparent;
+    /* Add a transparent border to create padding */
 }
+
+.square-extra:hover {
+    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    border: 20px transparent;
+    /* Add the same transparent border on hover */
+}
+
 
 .mask-extra {
     clip: rect(0px, 460px, 220px, 0px);
