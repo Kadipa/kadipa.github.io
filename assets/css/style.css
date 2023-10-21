@@ -897,14 +897,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     padding: 80px;
 }
 
-.square-extra:hover {
-    -webkit-transform: translate(20px, -10px);
-    -ms-transform: translate(10px, -10px);
-    transform: translate(10px, -10px);
-    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-}
-
 
 .square-extra {
     width: 460px;
