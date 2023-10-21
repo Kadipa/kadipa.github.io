@@ -919,7 +919,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 /* Exclude button from the transform effect */
-.square-extra:hover .button-extra {
+.button-extra {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
