@@ -906,7 +906,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    border: 20px transparent;
     /* Add a transparent border to create padding */
 }
 
@@ -918,15 +917,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
 
-/* Exclude button from the transform effect */
 .button-extra {
+    /* Remove transform for the button */
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
 }
-
-
-
 .mask-extra {
     clip: rect(0px, 460px, 220px, 0px);
     border-radius: 4px;
