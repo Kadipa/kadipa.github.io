@@ -897,7 +897,16 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     padding: 80px;
 }
 
-.square-extra {
+.sq:hover {
+    -webkit-transform: translate(20px, -10px);
+    -ms-transform: translate(10px, -10px);
+    transform: translate(10px, -10px);
+    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+
+.sq{
     width: 460px;
     height: 430px;
     background: white;
@@ -906,24 +915,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    /* Add a transparent border to create padding */
 }
 
-.square-extra:hover {
-    -webkit-transform: translate(10px, -10px);
-    -ms-transform: translate(10px, -10px);
-    transform: translate(10px, -10px);
-    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-}
-
-.button-extra {
-    /* Remove transform for the button */
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-}
-.mask-extra {
+.mask-extra{
     clip: rect(0px, 460px, 220px, 0px);
     border-radius: 4px;
     position: absolute;
@@ -933,7 +927,7 @@ img {
     width: 460px;
 }
 
-.h1-extra {
+.h1-extra{
     margin: auto;
     text-align: left;
     margin-top: 240px;
@@ -943,8 +937,17 @@ img {
     font-size: 24px;
 }
 
+p {
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #C8C8C8;
+    line-height: 18px;
+}
 
-.button-extra {
+.button-extra{
     background-color: #3EDD84;
     color: white;
     width: 90px;
@@ -957,7 +960,7 @@ img {
     margin-left: 30px;
     margin-right: 70px;
     font-size: 12px;
-    cursor: default;
+    cursor: pointer;
     font-family: 'merriweather';
 }
 
