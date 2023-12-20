@@ -303,6 +303,19 @@ nav.navbar.bootsnav .navbar-toggle i {
     letter-spacing: 1px;
 }
 
+/* Added styles for centered text */
+.middle-text {
+    margin-top: 20px;
+}
+
+.middle-text p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+/* Adjusted styles for download resume link */
 .header-text a {
     width: 200px;
     height: 60px;
@@ -313,6 +326,8 @@ nav.navbar.bootsnav .navbar-toggle i {
     background: #b636ff;
     border: 1px solid #b636ff;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+    margin-top: 20px;
+    display: inline-block;
     -webkit-transition: 0.3s linear;
     -moz-transition: 0.3s linear;
     -ms-transition: 0.3s linear;
@@ -325,6 +340,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     background: #9f00ff;
     border: 1px solid #9f00ff;
 }
+
 
 
 /*.header-text-area*/
