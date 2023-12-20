@@ -1163,4 +1163,12 @@ p {
     }
 }
 
+.fa-researchgate::before {
+    content: "\f1b3"; /* Unicode for the ResearchGate icon in Font Awesome */
+}
+
+.ai-google-scholar {
+    font-family: 'Academicons'; /* Assuming Academicons font for Google Scholar */
+    content: "\e801"; /* Unicode for the Google Scholar icon in Academicons */
+}
 /*========================Thank you=================
