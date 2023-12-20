@@ -280,10 +280,10 @@ nav.navbar.bootsnav .navbar-toggle i {
 /* Additional styles to center text */
 /* Added styles for centered text */
 .middle-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .middle-text p {
