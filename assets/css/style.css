@@ -254,12 +254,14 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*-------------------------------------
         3.  Welcome-hero
 --------------------------------------*/
+/* Adjusted styles for .welcome-hero */
 .welcome-hero {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column; /* Center items vertically */
     position: relative;
-    background: url(../images/about/welcome-banner.jpg)no-repeat;
+    background: url(../images/about/welcome-banner.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 890px;
@@ -275,7 +277,11 @@ nav.navbar.bootsnav .navbar-toggle i {
     height: 100%;
 }
 
-/*.header-text-area*/
+/* Additional styles to center text */
+.header-text {
+    text-align: center;
+}
+
 .header-text h2 {
     color: #fff;
     font-size: 54px;
@@ -319,6 +325,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     background: #9f00ff;
     border: 1px solid #9f00ff;
 }
+
 
 /*.header-text-area*/
 
