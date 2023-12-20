@@ -370,6 +370,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*.single-about-img */
 .single-about-img {
     position: relative;
+    overflow: hidden; /* Ensure any content that overflows is hidden */
     box-shadow: 0 5px 20px rgba(14, 25, 80, .30);
 }
 
@@ -378,14 +379,16 @@ nav.navbar.bootsnav .navbar-toggle i {
     content: " ";
     top: 0;
     left: 0;
-    width: 109%;
+    width: 100%; /* Adjusted width to cover the entire image */
     height: 100%;
     background: rgba(31, 44, 108, .3);
 }
 
 .single-about-img img {
-    max-width: 800px;
-    height: 468px;
+    width: 100%; /* Make the image fill the container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline-block spacing */
+    max-width: 100%; /* Ensure the image doesn't exceed its natural size */
 }
 
 .about-list-icon {
