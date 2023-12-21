@@ -924,12 +924,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 /*-------------------------------------
         Blog (extra css)
 --------------------------------------*/
+/* Blog (extra css) */
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
 
 .container-extra {
     display: flex;
     justify-content: center;
-    padding: 80px;
+    padding: 20px; /* Adjusted padding */
 }
 
 .sq:hover {
@@ -940,8 +941,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
 
-
-.sq{
+.sq {
     width: 460px;
     height: 430px;
     background: white;
@@ -952,22 +952,21 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     transition: all 0.3s ease;
 }
 
-.mask-extra{
+.mask-extra {
     clip: rect(0px, 460px, 220px, 0px);
     border-radius: 4px;
     position: absolute;
 }
 
 img {
-    width: 460px;
+    width: 100%; /* Adjusted image width */
 }
 
-.h1-extra{
+.h1-extra {
     margin: auto;
     text-align: left;
-    margin-top: 240px;
+    margin-top: 20px; /* Adjusted margin-top */
     padding-left: 30px;
-
     font-family: 'Merriweather', serif;
     font-size: 24px;
 }
@@ -982,7 +981,7 @@ p {
     line-height: 18px;
 }
 
-.button-extra{
+.button-extra {
     background-color: #3EDD84;
     color: white;
     width: 90px;
@@ -998,6 +997,7 @@ p {
     cursor: pointer;
     font-family: 'merriweather';
 }
+
 
 /*-------------------------------------
         11. Contact
