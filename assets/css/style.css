@@ -1000,9 +1000,9 @@ p {
 
 
 /*-------------------------------------
+/*-------------------------------------
         11. Contact
 --------------------------------------*/
-  /* Contact */
 .contact {
     background: #f9fbfd;
     padding: 50px 0 100px;
@@ -1111,7 +1111,7 @@ p {
 /*.contact-add-info */
 
 /*hm-foot-icon*/
-.hm-foot-icon {}
+
 
 .hm-foot-icon ul li {
     float: left;
@@ -1142,6 +1142,7 @@ p {
 .hm-footer-copyright p a {
     color: #888ea5;
 }
+
 /*===============================
     Scroll Top
 ===============================*/
@@ -1197,6 +1198,8 @@ p {
         bottom: 7px;
     }
 }
+
+/*========================Thank you=================*/
 
 .fa-researchgate::before {
     content: "\f1b3"; /* Unicode for the ResearchGate icon in Font Awesome */
