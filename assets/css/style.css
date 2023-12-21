@@ -8,6 +8,14 @@
 font-family: 'Poppins', sans-serif;
 ==================================== */
 
+.fa-researchgate::before {
+    content: "\f1b3"; /* Unicode for the ResearchGate icon in Font Awesome */
+}
+
+.ai-google-scholar {
+    font-family: 'Academicons'; /* Assuming Academicons font for Google Scholar */
+    content: "\e801"; /* Unicode for the Google Scholar icon in Academicons */
+}
 
 /*=========== TABLE OF CONTENTS ===========
 1.  General css (Reset code)
@@ -1096,6 +1104,7 @@ p {
 }
 /*.contact-add-info */
 
+
 /*hm-foot-icon*/
 .hm-foot-icon {
    
@@ -1168,14 +1177,4 @@ p {
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
-/*========================Thank you====================================Thank you=================*/
-
-.fa-researchgate::before {
-    content: "\f1b3"; /* Unicode for the ResearchGate icon in Font Awesome */
-}
-
-.ai-google-scholar {
-    font-family: 'Academicons'; /* Assuming Academicons font for Google Scholar */
-    content: "\e801"; /* Unicode for the Google Scholar icon in Academicons */
-}
-/*========================Thank you=================
+/*========================Thank you====================================
