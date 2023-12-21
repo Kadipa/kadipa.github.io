@@ -245,15 +245,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*-------------------------------------
         4.  About
 --------------------------------------*/
+/* about start */
 .about {
     padding: 50px 0 100px;
 }
 
 .about-content {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
-/*.single-about-txt*/
 .single-about-txt h3 {
     font-size: 18px;
     color: #3c4258;
@@ -285,15 +285,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     margin-top: 3px;
 }
 
-/*.single-about-txt*/
-
-/*.single-about-img */
-/* Adjusted styles for image container */
 .single-about-img {
     position: relative;
     overflow: hidden;
     box-shadow: 0 5px 20px rgba(14, 25, 80, .30);
-    height: 100%; /* Set the container height to match the text height */
+    height: 100%;
 }
 
 .single-about-img:before {
@@ -308,21 +304,18 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 
 .single-about-img img {
     width: 100%;
-    height: 100%; /* Make the image fill the container height */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    height: 100%;
+    object-fit: cover;
     display: block;
 }
 
-/* Additional styles for about-content padding */
 .about-content {
-    padding-top: 50px; /* Adjusted padding for better spacing */
+    padding-top: 50px;
 }
 
-/* Additional styles for single-about-txt padding */
 .single-about-txt {
-    padding-bottom: 20px; /* Adjusted padding for better spacing */
+    padding-bottom: 20px;
 }
-
 
 .about-list-icon {
     display: flex;
@@ -336,7 +329,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background: #1f2c6c;
 }
 
-/*.ab-list-icon */
 .about-list-icon ul {
     display: flex;
 }
