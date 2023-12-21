@@ -248,47 +248,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /* about start */
 .about {
     padding: 50px 0 100px;
-    position: relative;
 }
 
 .about-content {
     padding-top: 50px;
-    display: flex; /* Use flexbox to align content */
-    align-items: center; /* Center content vertically */
 }
 
-.single-about-txt h3 {
-    font-size: 18px;
-    color: #3c4258;
-    text-transform: initial;
-    line-height: 1.8;
-}
-
-.single-about-txt p {
-    font-size: 16px;
-    color: #999fb3;
-    padding: 35px 0 43px;
-    border-bottom: 1px solid #999fb3;
-}
-
-.single-about-add-info {
-    margin: 35px 0;
-}
-
-.single-about-add-info h3 {
-    color: #636a82;
-    font-size: 16px;
-    text-transform: capitalize;
-}
-
-.single-about-add-info p {
-    font-weight: 300;
-    border: 0;
-    padding: 0;
-    margin-top: 3px;
-}
-
-/* Add this CSS to your existing stylesheet */
 .single-about-img {
     position: relative;
     overflow: hidden;
@@ -322,12 +287,34 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .profile-image {
     max-width: 80%;
     border-radius: 50%;
     height: 100%;
+}
+
+.contact-adress {
+    text-align: center;
+}
+
+.contact-add-head h3 {
+    color: #333;
+}
+
+.contact-add-head p {
+    color: #888;
+}
+
+.single-contact-add-info h3 {
+    color: #333;
+}
+
+.single-contact-add-info a {
+    color: #007bff;
+    text-decoration: none;
 }
 
 .hm-foot-icon {
@@ -359,48 +346,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 
 .single-about-txt {
     padding-bottom: 20px;
-}
-
-
-.about-list-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 90px;
-    background: #1f2c6c;
-    z-index: 1; /* Ensure the icon list is above the overlay */
-}
-
-.about-list-icon ul {
-    display: flex;
-}
-
-.about-list-icon ul li a {
-    padding-right: 22px;
-    cursor: pointer;
-    color: #fff;
-}
-
-.about-list-icon ul li a {
-    cursor: pointer;
-    color: #fff;
-    display: inline-block;
-    border: 2px solid;
-    margin-left: 20px;
-    border-radius: 8px;
-    width: 30px;
-    height: 30px;
-    line-height: 28px;
     text-align: center;
-    z-index: 2; /* Ensure the links are clickable */
-}
-
-.about-list-icon ul li a i {
-    margin-left: 6px;
 }
 
 /*-------------------------------------
