@@ -712,6 +712,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /* Add this to your existing styles or create a new section for blog styles */
 
 /* General styles for blog section */
+/* Add this to your existing styles or create a new section for blog styles */
+
+/* General styles for blog section */
 .blog {
     padding: 50px 0;
 }
@@ -729,6 +732,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 .mask-extra {
+    width: 100%;
     max-width: 100%;
     height: auto;
     border-radius: 10px;
@@ -743,6 +747,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .portfolio-details p {
     font-size: 16px;
     color: #555;
+    text-align: left;
 }
 
 /* Cool button effect for Read More */
@@ -756,6 +761,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     transition: background-color 0.3s;
     position: relative;
     overflow: hidden;
+    margin-top: 20px;
 }
 
 .blog-link a:hover {
@@ -776,6 +782,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .blog-link a:hover:after {
     left: 0;
 }
+
 
 
 
