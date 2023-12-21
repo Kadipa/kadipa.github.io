@@ -1003,78 +1003,134 @@ p {
         11. Contact
 --------------------------------------*/
   /* Contact */
-    .contact {
-        background: #f9fbfd;
-        padding: 50px 0 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.contact {
+    background: #f9fbfd;
+    padding: 50px 0 100px;
+}
 
-    .single-contact-box {
-        padding-top: 0; /* Adjusted padding-top */
-    }
+.single-contact-box {
+    padding-top: 100px;
+}
 
-    /* Contact Address */
-    .contact-add-head h3 {
-        font-size: 24px;
-        color: #3c4258;
-        margin-bottom: 10px; /* Added margin-bottom */
-    }
+.contact-form .form-group {
+    margin-bottom: 20px;
 
-    .contact-add-head p {
-        font-size: 16px;
-        text-transform: capitalize;
-        color: #636a82;
-        font-weight: 300;
-        margin-top: 6px;
-    }
+}
 
-    /* Contact Address Info */
-    .contact-add-info {
-        margin: 30px 0; /* Adjusted margin */
-    }
+.contact-form .form-control {
+    padding: 25px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    box-shadow: none;
+    outline: 0 !important;
+    background: #fff;
+    color: #636a82;
+    resize: none;
+}
 
-    .single-contact-add-info h3 {
-        color: #636a82;
-        font-weight: 500;
-    }
+/*--contct button--*/
+.contact-form .single-contact-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    text-transform: capitalize;
+    margin-top: 3px;
+    background: #b636ff;
+    border: 1px solid #b636ff;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
 
-    .single-contact-add-info p {
-        color: #999fb3;
-        font-size: 16px;
-        margin-top: 10px; /* Adjusted margin-top */
-    }
+.contact-form .single-contact-btn .contact-btn,
+.contact-form .single-contact-btn .contact-btn:focus {
+    margin-top: 0px;
+    outline: 0 !important;
+    border: 0;
+    color: #fff;
+    border-radius: 0px;
+    font-size: 14px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
 
-    /* Contact Social Icons */
-    .hm-foot-icon {
-        margin-top: 20px; /* Added margin-top */
-    }
+}
 
-    .hm-foot-icon ul {
-        list-style: none;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.single-contact-btn:hover {
+    background: #9f00ff;
+    border: 1px solid #9f00ff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+}
 
-    .hm-foot-icon ul li {
-        margin-right: 18px;
-    }
+/*--contct button--*/
 
-    .hm-foot-icon ul li > a {
-        color: #636a82;
-        -webkit-transition: .3s;
-        -moz-transition: .3s;
-        -ms-transition: .3s;
-        -o-transition: .3s;
-        transition: .3s;
-    }
+/* contact-adress */
+.contact-add-head h3 {
+    font-size: 24px;
+    color: #3c4258;
+}
 
-    .hm-foot-icon ul li > a:hover {
-        color: #b636ff;
-    }
+.contact-add-head p {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #636a82;
+    font-weight: 300;
+    margin-top: 6px;
+}
+
+/* contact-adress */
+
+/*.contact-add-info */
+.contact-add-info {
+    margin: 42px 0 52px;
+}
+
+.single-contact-add-info h3 {
+    color: #636a82;
+    font-weight: 500;
+}
+
+.single-contact-add-info p {
+    color: #999fb3;
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+.single-contact-add-info {
+    margin-bottom: 26px;
+}
+
+/*.contact-add-info */
+
+/*hm-foot-icon*/
+.hm-foot-icon {}
+
+.hm-foot-icon ul li {
+    float: left;
+}
+
+.hm-foot-icon ul li>a {
+    color: #636a82;
+    margin-right: 18px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.hm-foot-icon ul li>a:hover {
+    color: #b636ff;
+}
+
 /*hm-foot-icon*/
 
 .hm-footer-copyright p {
@@ -1086,7 +1142,6 @@ p {
 .hm-footer-copyright p a {
     color: #888ea5;
 }
-
 /*===============================
     Scroll Top
 ===============================*/
