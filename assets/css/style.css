@@ -783,7 +783,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     left: 0;
 }
 
-
+/* Shorter image height */
+.portfolio-details img {
+    height: 200px; /* Adjust the height as needed */
+}
 
 
 /*-------------------------------------
