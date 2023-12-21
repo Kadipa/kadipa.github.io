@@ -709,42 +709,43 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 -----------------------------------*/
 /* Add this to your existing styles or create a new section for blog styles */
 
-.blog-entry {
+/* Add this to your existing styles or create a new section for blog styles */
+
+/* General styles for blog section */
+.blog {
+    padding: 50px 0;
+}
+
+.portfolio-details {
     display: flex;
-    margin-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.blog-image {
-    flex: 0 0 40%; /* Adjust the width of the image */
-    overflow: hidden;
-    border-radius: 10px;
+.sq {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.blog-image img {
-    width: 100%;
+.mask-extra {
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.blog-content {
-    flex: 0 0 60%; /* Adjust the width of the content */
-    padding: 20px;
-    border: 1px solid #ddd; /* Add a border for separation */
-    border-radius: 10px;
-}
-
-.blog-title {
+.h1-extra {
     font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 15px;
+    color: #333;
+    margin: 20px 0;
 }
 
-.blog-content p {
+.portfolio-details p {
     font-size: 16px;
     color: #555;
-    margin-bottom: 20px;
 }
 
+/* Cool button effect for Read More */
 .blog-link a {
     text-decoration: none;
     color: #fff;
@@ -753,10 +754,27 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     border-radius: 5px;
     display: inline-block;
     transition: background-color 0.3s;
+    position: relative;
+    overflow: hidden;
 }
 
 .blog-link a:hover {
     background-color: #0056b3;
+}
+
+.blog-link a:after {
+    content: "";
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    transition: left 0.3s;
+}
+
+.blog-link a:hover:after {
+    left: 0;
 }
 
 
