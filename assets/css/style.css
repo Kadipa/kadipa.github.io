@@ -288,12 +288,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     margin-top: 3px;
 }
 
+/* Add this CSS to your existing stylesheet */
 .single-about-img {
     position: relative;
     overflow: hidden;
     box-shadow: 0 5px 20px rgba(14, 25, 80, .30);
     height: 100%;
-    flex: 1; /* Allow the image to grow and shrink as needed */
 }
 
 .single-about-img:before {
@@ -303,26 +303,64 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(31, 44, 108, 0);
-    z-index: 1; /* Ensure the overlay is behind the text */
+    background: rgba(31, 44, 108, .3);
 }
 
 .single-about-img img {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     display: block;
-    margin: auto;
+}
+
+.single-contact-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-image {
+    max-width: 80%;
     border-radius: 50%;
-    position: relative;
-    z-index: 2; /* Ensure the image is above the overlay */
+    height: 100%;
+}
+
+.hm-foot-icon {
+    margin-top: 20px;
+}
+
+.hm-foot-icon ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hm-foot-icon ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.hm-foot-icon ul li a {
+    color: #333;
+}
+
+/* Additional styles for better spacing */
+.about-content {
+    padding-top: 50px;
 }
 
 .single-about-txt {
     padding-bottom: 20px;
-    position: relative;
-    z-index: 2; /* Ensure text is above the overlay */
 }
+
 
 .about-list-icon {
     display: flex;
