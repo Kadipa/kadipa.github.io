@@ -704,6 +704,62 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     height: auto;
     border-radius:0;
 }
+/*---------------------------
+   blog extra
+-----------------------------------*/
+/* Add this to your existing styles or create a new section for blog styles */
+
+.blog-entry {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.blog-image {
+    flex: 0 0 40%; /* Adjust the width of the image */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.blog-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.blog-content {
+    flex: 0 0 60%; /* Adjust the width of the content */
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a border for separation */
+    border-radius: 10px;
+}
+
+.blog-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.blog-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.blog-link a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.blog-link a:hover {
+    background-color: #0056b3;
+}
+
+
 
 /*-------------------------------------
         11. Contact
