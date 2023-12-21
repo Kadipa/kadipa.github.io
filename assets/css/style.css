@@ -1000,6 +1000,7 @@ p {
 
 
 /*-------------------------------------
+
 /*-------------------------------------
         11. Contact
 --------------------------------------*/
@@ -1007,23 +1008,18 @@ p {
     background: #f9fbfd;
     padding: 50px 0 100px;
 }
-
-.single-contact-box {
-    padding-top: 100px;
-}
-
-.contact-form .form-group {
+.single-contact-box {padding-top: 100px;}
+.contact-form  .form-group {
     margin-bottom: 20px;
-
+    
 }
-
 .contact-form .form-control {
     padding: 25px;
     font-size: 14px;
     border: 1px solid #fff;
     border-radius: 0px;
     box-shadow: none;
-    outline: 0 !important;
+    outline: 0!important;
     background: #fff;
     color: #636a82;
     resize: none;
@@ -1031,122 +1027,103 @@ p {
 
 /*--contct button--*/
 .contact-form .single-contact-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    text-transform: capitalize;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:50px;
+    text-transform:capitalize;
     margin-top: 3px;
     background: #b636ff;
     border: 1px solid #b636ff;
-    cursor: pointer;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
+    cursor:pointer;
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+     -webkit-transition: .5s; 
+    -moz-transition:.5s; 
+    -ms-transition:.5s; 
+    -o-transition:.5s;
     transition: .5s;
 }
-
-.contact-form .single-contact-btn .contact-btn,
+.contact-form .single-contact-btn .contact-btn ,
 .contact-form .single-contact-btn .contact-btn:focus {
-    margin-top: 0px;
+    margin-top:0px;
     outline: 0 !important;
-    border: 0;
+    border:0;
     color: #fff;
     border-radius: 0px;
-    font-size: 14px;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
+    font-size:14px;
+    -webkit-transition: .5s; 
+    -moz-transition:.5s; 
+    -ms-transition:.5s; 
+    -o-transition:.5s;
     transition: .5s;
-
+    
 }
-
-.single-contact-btn:hover {
+.single-contact-btn:hover{
     background: #9f00ff;
     border: 1px solid #9f00ff;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
 }
 
 /*--contct button--*/
 
 /* contact-adress */
 .contact-add-head h3 {
-    font-size: 24px;
-    color: #3c4258;
+    font-size:  24px;
+    color:  #3c4258;
 }
-
 .contact-add-head p {
-    font-size: 16px;
+    font-size:  16px;
     text-transform: capitalize;
-    color: #636a82;
-    font-weight: 300;
-    margin-top: 6px;
+    color:  #636a82;
+    font-weight:  300;
+    margin-top:  6px;
 }
-
 /* contact-adress */
 
 /*.contact-add-info */
-.contact-add-info {
-    margin: 42px 0 52px;
-}
-
+.contact-add-info { margin: 42px 0 52px;}
 .single-contact-add-info h3 {
-    color: #636a82;
-    font-weight: 500;
+    color:  #636a82;
+    font-weight:  500;
 }
-
 .single-contact-add-info p {
-    color: #999fb3;
-    font-size: 16px;
-    margin-top: 18px;
+    color:  #999fb3;
+    font-size:  16px;
+    margin-top:  18px;
 }
-
 .single-contact-add-info {
-    margin-bottom: 26px;
+    margin-bottom:  26px;
 }
-
 /*.contact-add-info */
 
 /*hm-foot-icon*/
-
-
-.hm-foot-icon ul li {
-    float: left;
+.hm-foot-icon {
+   
 }
-
+.hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
     color: #636a82;
-    margin-right: 18px;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -ms-transition: .3s;
-    -o-transition: .3s;
+    margin-right:18px;
+    -webkit-transition: .3s; 
+    -moz-transition:.3s; 
+    -ms-transition:.3s; 
+    -o-transition:.3s;
     transition: .3s;
 }
-
-.hm-foot-icon ul li>a:hover {
+.hm-foot-icon ul li>a:hover{
     color: #b636ff;
-}
+}/*hm-foot-icon*/
 
-/*hm-foot-icon*/
-
-.hm-footer-copyright p {
+.hm-footer-copyright p{
     color: #888ea5;
     text-transform: capitalize;
     padding: 38px 0;
 }
-
-.hm-footer-copyright p a {
-    color: #888ea5;
-}
-
+.hm-footer-copyright p a {color: #888ea5;}
 /*===============================
     Scroll Top
 ===============================*/
-#scroll-Top .return-to-top {
+#scroll-Top  .return-to-top {
     position: fixed;
     right: 30px;
     bottom: 30px;
@@ -1158,48 +1135,40 @@ p {
     font-size: 20px;
     cursor: pointer;
     color: #fff;
-    background: #b636ff;
-    border: 1px solid #b636ff;
-    border-radius: 50%;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
+    background:#b636ff;
+	border:1px solid #b636ff;
+	border-radius:50%;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
     transition: .5s;
-    z-index: 2;
+	z-index: 2;
 }
-
-#scroll-Top .return-to-top:hover {
-    background: #fff;
+#scroll-Top  .return-to-top:hover {
+    background:#fff;
     color: #b636ff;
-    border: 1px solid #b636ff;
+	border:1px solid #b636ff;
 }
 
-#scroll-Top .return-to-top i {
-    position: relative;
-    bottom: 0;
+#scroll-Top  .return-to-top i{
+    position:relative;
+    bottom:0;
 
 }
 
-#scroll-Top .return-to-top i {
+#scroll-Top  .return-to-top i{
     position: relative;
     animation-name: example;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    animation-duration: 1s;
+    animation-duration:1s;
 }
-
 @keyframes example {
-    0% {
-        bottom: 0px;
-    }
-
-    100% {
-        bottom: 7px;
-    }
+    0%   {bottom:0px;}
+    100%  {bottom:7px;}
 }
-
-/*========================Thank you=================*/
+/*========================Thank you====================================Thank you=================*/
 
 .fa-researchgate::before {
     content: "\f1b3"; /* Unicode for the ResearchGate icon in Font Awesome */
