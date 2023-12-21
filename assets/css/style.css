@@ -241,51 +241,90 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
 /*.header-text-area*/
 
+
 /*-------------------------------------
         4.  About
 --------------------------------------*/
-.about {padding: 50px 0 100px;}
-.about-content {padding-top: 100px;}
+.about {
+    padding: 50px 0 100px;
+}
+
+.about-content {
+    padding-top: 100px;
+}
+
 /*.single-about-txt*/
 .single-about-txt h3 {
-    font-size:18px;
+    font-size: 18px;
     color: #3c4258;
     text-transform: initial;
     line-height: 1.8;
 }
+
 .single-about-txt p {
     font-size: 16px;
     color: #999fb3;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
 }
+
 .single-about-add-info {
     margin: 35px 0;
 }
+
 .single-about-add-info h3 {
     color: #636a82;
     font-size: 16px;
     text-transform: capitalize;
 }
-.single-about-add-info p {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
+
+.single-about-add-info p {
+    font-weight: 300;
+    border: 0;
+    padding: 0;
+    margin-top: 3px;
+}
+
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
+/* Adjusted styles for image container */
+.single-about-img {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(14, 25, 80, .30);
+    height: 100%; /* Set the container height to match the text height */
+}
+
 .single-about-img:before {
-    position:  absolute;
+    position: absolute;
     content: " ";
     top: 0;
-    left:  0;
-    width: 109%;
-    height:  100%;
-    background: rgba(31,44,108,.3);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(31, 44, 108, .3);
 }
+
 .single-about-img img {
-    max-width: 500px;
-    height: 468px;
+    width: 100%;
+    height: 100%; /* Make the image fill the container height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    display: block;
 }
-.about-list-icon{
+
+/* Additional styles for about-content padding */
+.about-content {
+    padding-top: 50px; /* Adjusted padding for better spacing */
+}
+
+/* Additional styles for single-about-txt padding */
+.single-about-txt {
+    padding-bottom: 20px; /* Adjusted padding for better spacing */
+}
+
+
+.about-list-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,15 +335,18 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     height: 90px;
     background: #1f2c6c;
 }
+
 /*.ab-list-icon */
 .about-list-icon ul {
     display: flex;
 }
-.about-list-icon  ul li a {
+
+.about-list-icon ul li a {
     padding-right: 22px;
-    cursor:pointer;
+    cursor: pointer;
     color: #fff;
 }
+
 .about-list-icon ul li a {
     cursor: pointer;
     color: #fff;
@@ -317,9 +359,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     line-height: 28px;
     text-align: center;
 }
+
 .about-list-icon ul li a i {
     margin-left: 6px;
 }
+
 /*.ab-list-icon */
 
 /*.single-about-img */
