@@ -48,6 +48,25 @@
 	<!--responsive.css-->
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
+	<style>
+		.skill-tag {
+			display: inline-block;
+			background: #f0f4f8;
+			border: 1px solid #d0d8e4;
+			border-radius: 4px;
+			padding: 5px 12px;
+			margin: 4px 4px 4px 0;
+			font-size: 13px;
+			color: #444;
+		}
+		.skill-tag.primary {
+			background: #e8f0fe;
+			border-color: #a8c0f8;
+			color: #1a56cc;
+			font-weight: 600;
+		}
+	</style>
+
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 
@@ -82,11 +101,11 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 						<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-							<li class=" smooth-menu active"></li>
-							<li class=" smooth-menu"><a href="#education">education</a></li>
-							<li class="smooth-menu"><a href="#experience">experience</a></li>
-							<li class="smooth-menu"><a href="#scholarship">Scholarship</a></li>
-							<li class="smooth-menu"><a href="#publication">Publication</a></li>
+							<li class="smooth-menu"><a href="#about">About</a></li>
+							<li class="smooth-menu"><a href="#skills">Skills</a></li>
+							<li class="smooth-menu"><a href="#experience">Experience</a></li>
+							<li class="smooth-menu"><a href="#education">Education</a></li>
+							<li class="smooth-menu"><a href="#publication">Publications</a></li>
 							<li class="smooth-menu"><a href="#blog">Blog</a></li>
 						</ul><!--/.nav -->
 					</div><!-- /.navbar-collapse -->
@@ -153,8 +172,8 @@
 									<div class="contact-add-info">
 										<div class="single-contact-add-info">
 											<h3 style="color: #333; font-family: 'Comic Sans MS', cursive;">Email</h3>
-											<p><a href="mailto:kadiparaungmyohan@gmail.com"
-													style="color: #007bff; text-decoration: none; font-family: 'Comic Sans MS', cursive;">kadiparaungmyohan@gmail.com</a>
+											<p><a href="mailto:kadipa.amh@gmail.com"
+													style="color: #007bff; text-decoration: none; font-family: 'Comic Sans MS', cursive;">kadipa.amh@gmail.com</a>
 											</p>
 										</div>
 										<div class="single-contact-add-info">
@@ -254,6 +273,94 @@
 		</div><!--/.container-->
 	</section><!--/.about-->
 	<!--about end -->
+
+	<!--skills start -->
+	<section id="skills" class="skills" style="padding: 60px 0; background: #f9f9f9;">
+		<div class="section-heading text-center">
+			<h2>Skills</h2>
+		</div>
+		<div class="container">
+			<div style="max-width: 860px; margin: 0 auto;">
+
+				<div class="row" style="margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
+					<div class="col-sm-3">
+						<p style="font-weight: 600; color: #555; margin-top: 4px;">Languages</p>
+					</div>
+					<div class="col-sm-9">
+						<span class="skill-tag primary">Python</span>
+						<span class="skill-tag primary">Node.js / TypeScript</span>
+						<span class="skill-tag">SQL</span>
+						<span class="skill-tag">R</span>
+						<span class="skill-tag">Ruby on Rails</span>
+						<span class="skill-tag">Java</span>
+					</div>
+				</div>
+
+				<div class="row" style="margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
+					<div class="col-sm-3">
+						<p style="font-weight: 600; color: #555; margin-top: 4px;">ML / Deep Learning</p>
+					</div>
+					<div class="col-sm-9">
+						<span class="skill-tag primary">PyTorch</span>
+						<span class="skill-tag">TensorFlow</span>
+						<span class="skill-tag">Scikit-learn</span>
+						<span class="skill-tag">Pandas</span>
+						<span class="skill-tag">NumPy</span>
+						<span class="skill-tag">CNNs</span>
+						<span class="skill-tag">Transfer Learning</span>
+						<span class="skill-tag">Knowledge Distillation</span>
+						<span class="skill-tag">Computer Vision</span>
+					</div>
+				</div>
+
+				<div class="row" style="margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
+					<div class="col-sm-3">
+						<p style="font-weight: 600; color: #555; margin-top: 4px;">LLM / AI</p>
+					</div>
+					<div class="col-sm-9">
+						<span class="skill-tag primary">RAG Pipeline</span>
+						<span class="skill-tag">OpenAI API</span>
+						<span class="skill-tag">Ollama (Mistral)</span>
+						<span class="skill-tag">Agentic AI</span>
+						<span class="skill-tag">FastAPI</span>
+					</div>
+				</div>
+
+				<div class="row" style="margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
+					<div class="col-sm-3">
+						<p style="font-weight: 600; color: #555; margin-top: 4px;">Data Engineering</p>
+					</div>
+					<div class="col-sm-9">
+						<span class="skill-tag primary">AWS (S3, Lambda, Redshift, Glue)</span>
+						<span class="skill-tag">GCP</span>
+						<span class="skill-tag">Airflow</span>
+						<span class="skill-tag">dbt</span>
+						<span class="skill-tag">DLT</span>
+						<span class="skill-tag">Terraform</span>
+						<span class="skill-tag">Redshift</span>
+						<span class="skill-tag">PostgreSQL</span>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-3">
+						<p style="font-weight: 600; color: #555; margin-top: 4px;">Tools</p>
+					</div>
+					<div class="col-sm-9">
+						<span class="skill-tag">MLflow</span>
+						<span class="skill-tag">Docker</span>
+						<span class="skill-tag">Streamlit</span>
+						<span class="skill-tag">Metabase</span>
+						<span class="skill-tag">Matplotlib</span>
+						<span class="skill-tag">Seaborn</span>
+						<span class="skill-tag">Git</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!--skills end -->
 
 	<!--education start -->
 	<section id="education" class="education">
