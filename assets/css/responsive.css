@@ -62,8 +62,9 @@
 
 	.single-horizontal-timeline {max-width: 350px;margin: 30px auto;}
 
-	/* About section: remove padding on stacked bio column */
-	.about-content .col-md-8 { padding-left: 15px !important; padding-right: 15px !important; }
+	/* About section: center photo column and reset bio padding */
+	.about-content .col-md-4 { text-align: center; float: none; margin: 0 auto; }
+	.about-content .col-md-8 { padding-left: 15px !important; padding-right: 15px !important; float: none; }
 
 	/* Hero height reduction */
 	.welcome-hero { height: auto; min-height: 480px; padding: 100px 0; }
