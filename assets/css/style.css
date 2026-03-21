@@ -251,7 +251,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4f46e5;}
 }
 
 .about-content {
-    padding-top: 40px;
+    padding-top: 16px;
 }
 
 .single-about-img {
@@ -407,11 +407,14 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
+.section-heading {
+    margin-bottom: 36px;
+}
 .section-heading h2 {
     font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
-    padding-bottom: 24px;
+    padding-bottom: 20px;
     border-bottom: 2px solid #e2e8f0;
     letter-spacing: 1px;
 }
@@ -476,8 +479,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding: 60px 0;
     border-top: 1px solid #e2e8f0;
 }
-.experience-content {padding-top: 40px;}
-.single-timeline-box {margin-bottom: 75px;}
+.experience-content {padding-top: 16px;}
+.single-timeline-box {margin-bottom: 36px;}
 
 /*experience-time*/
 .experience-time {
