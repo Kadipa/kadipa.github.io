@@ -247,7 +247,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4f46e5;}
 --------------------------------------*/
 /* about start */
 .about {
-    padding: 60px 0 80px;
+    padding: 60px 0;
 }
 
 .about-content {
@@ -347,7 +347,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4f46e5;}
 
 .education {
     background: #f8fafc;
-    padding: 60px 0 80px;
+    padding: 60px 0;
 }
 .education-horizontal-timeline {
     padding: 40px 0;
@@ -387,7 +387,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         Scholarship Info
 --------------------------------------*/
 .scholarship{
-    padding: 60px 0 80px;
+    padding: 60px 0;
     border-top: 1px solid #e2e8f0;
     
 }
@@ -395,7 +395,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         Publication Info
 --------------------------------------*/
 .publication{
-    padding: 60px 0 80px;
+    padding: 60px 0;
     border: 1px solid #e5ebf2;
     
 }
@@ -473,7 +473,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         7. Experience
 -------------------------------------*/
 .experience {
-    padding: 60px 0 80px;
+    padding: 60px 0;
     border-top: 1px solid #e2e8f0;
 }
 .experience-content {padding-top: 40px;}
