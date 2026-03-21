@@ -102,7 +102,7 @@
 					<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 						<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 							<li class="smooth-menu"><a href="#about">About</a></li>
-							<li class="smooth-menu"><a href="#skills">Skills</a></li>
+							<li class="smooth-menu"><a href="#projects">Projects</a></li>
 							<li class="smooth-menu"><a href="#experience">Experience</a></li>
 							<li class="smooth-menu"><a href="#education">Education</a></li>
 							<li class="smooth-menu"><a href="#publication">Publications</a></li>
@@ -249,93 +249,73 @@
 	</section><!--/.about-->
 	<!--about end -->
 
-	<!--skills start -->
-	<section id="skills" class="skills" style="padding: 60px 0; background: #f9f9f9;">
+	<!--projects start -->
+	<section id="projects" class="projects" style="padding: 60px 0; background: #f9f9f9;">
 		<div class="section-heading text-center">
-			<h2>Skills</h2>
+			<h2>Projects</h2>
 		</div>
 		<div class="container">
-			<div style="max-width: 860px; margin: 0 auto;">
+			<div class="row">
 
-				<div class="row" style="margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
-					<div class="col-sm-3">
-						<p style="font-weight: 600; color: #555; margin-top: 4px;">Languages</p>
-					</div>
-					<div class="col-sm-9">
-						<span class="skill-tag primary">Python</span>
-						<span class="skill-tag primary">Node.js / TypeScript</span>
-						<span class="skill-tag">SQL</span>
-						<span class="skill-tag">R</span>
-						<span class="skill-tag">Ruby on Rails</span>
-						<span class="skill-tag">Java</span>
+				<!-- Project 1: Plant Doctor -->
+				<div class="col-md-6" style="margin-bottom: 30px;">
+					<div style="background: #fff; border-radius: 8px; padding: 28px; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+						<h3 style="margin-top: 0; color: #222;">Plant Doctor</h3>
+						<p style="color: #666; font-size: 13px; margin-bottom: 8px;">RAG + LLM + Agentic AI System &nbsp;|&nbsp; PhD Research Prototype</p>
+						<p style="color: #444;">An end-to-end AI system for plant disease detection. Combines Computer Vision classification with a RAG pipeline and LLM response — distilled from EfficientNet to MobileNet for 60% size reduction and 3× speedup.</p>
+						<ul style="color: #444; padding-left: 18px;">
+							<li>Knowledge Distillation: EfficientNet → MobileNet</li>
+							<li>RAG Pipeline: CV → knowledge base → LLM</li>
+							<li>Agentic hyperparameter search with MLflow tracking</li>
+							<li>FastAPI + Streamlit + Docker Compose deployment</li>
+						</ul>
+						<div style="margin: 16px 0;">
+							<span style="background:#eef2ff;color:#3730a3;border-radius:4px;padding:3px 8px;font-size:12px;margin:2px;display:inline-block;">PyTorch</span>
+							<span style="background:#eef2ff;color:#3730a3;border-radius:4px;padding:3px 8px;font-size:12px;margin:2px;display:inline-block;">FastAPI</span>
+							<span style="background:#eef2ff;color:#3730a3;border-radius:4px;padding:3px 8px;font-size:12px;margin:2px;display:inline-block;">Streamlit</span>
+							<span style="background:#eef2ff;color:#3730a3;border-radius:4px;padding:3px 8px;font-size:12px;margin:2px;display:inline-block;">MLflow</span>
+							<span style="background:#eef2ff;color:#3730a3;border-radius:4px;padding:3px 8px;font-size:12px;margin:2px;display:inline-block;">Docker</span>
+							<span style="background:#eef2ff;color:#3730a3;border-radius:4px;padding:3px 8px;font-size:12px;margin:2px;display:inline-block;">Ollama</span>
+							<span style="background:#eef2ff;color:#3730a3;border-radius:4px;padding:3px 8px;font-size:12px;margin:2px;display:inline-block;">OpenAI</span>
+						</div>
+						<a href="https://github.com/Kadipa/Plant_Doctor_Assistant" target="_blank" style="color: #3730a3; font-weight: 600; text-decoration: none;">
+							<i class="fab fa-github"></i> View on GitHub
+						</a>
 					</div>
 				</div>
 
-				<div class="row" style="margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
-					<div class="col-sm-3">
-						<p style="font-weight: 600; color: #555; margin-top: 4px;">ML / Deep Learning</p>
-					</div>
-					<div class="col-sm-9">
-						<span class="skill-tag primary">PyTorch</span>
-						<span class="skill-tag">TensorFlow</span>
-						<span class="skill-tag">Scikit-learn</span>
-						<span class="skill-tag">Pandas</span>
-						<span class="skill-tag">NumPy</span>
-						<span class="skill-tag">CNNs</span>
-						<span class="skill-tag">Transfer Learning</span>
-						<span class="skill-tag">Knowledge Distillation</span>
-						<span class="skill-tag">Computer Vision</span>
-					</div>
-				</div>
-
-				<div class="row" style="margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
-					<div class="col-sm-3">
-						<p style="font-weight: 600; color: #555; margin-top: 4px;">LLM / AI</p>
-					</div>
-					<div class="col-sm-9">
-						<span class="skill-tag primary">RAG Pipeline</span>
-						<span class="skill-tag">OpenAI API</span>
-						<span class="skill-tag">Ollama (Mistral)</span>
-						<span class="skill-tag">Agentic AI</span>
-						<span class="skill-tag">FastAPI</span>
-					</div>
-				</div>
-
-				<div class="row" style="margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
-					<div class="col-sm-3">
-						<p style="font-weight: 600; color: #555; margin-top: 4px;">Data Engineering</p>
-					</div>
-					<div class="col-sm-9">
-						<span class="skill-tag primary">AWS (S3, Lambda, Redshift, Glue)</span>
-						<span class="skill-tag">GCP</span>
-						<span class="skill-tag">Airflow</span>
-						<span class="skill-tag">dbt</span>
-						<span class="skill-tag">DLT</span>
-						<span class="skill-tag">Terraform</span>
-						<span class="skill-tag">Redshift</span>
-						<span class="skill-tag">PostgreSQL</span>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-sm-3">
-						<p style="font-weight: 600; color: #555; margin-top: 4px;">Tools</p>
-					</div>
-					<div class="col-sm-9">
-						<span class="skill-tag">MLflow</span>
-						<span class="skill-tag">Docker</span>
-						<span class="skill-tag">Streamlit</span>
-						<span class="skill-tag">Metabase</span>
-						<span class="skill-tag">Matplotlib</span>
-						<span class="skill-tag">Seaborn</span>
-						<span class="skill-tag">Git</span>
+				<!-- Project 2: NYC DOB Data Pipeline -->
+				<div class="col-md-6" style="margin-bottom: 30px;">
+					<div style="background: #fff; border-radius: 8px; padding: 28px; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+						<h3 style="margin-top: 0; color: #222;">NYC DOB Data Pipeline</h3>
+						<p style="color: #666; font-size: 13px; margin-bottom: 8px;">End-to-End ETL System &nbsp;|&nbsp; DataTalks Zoomcamp</p>
+						<p style="color: #444;">A production-grade batch data pipeline ingesting NYC Department of Buildings job data. Covers the full DE stack — ingestion, transformation, orchestration, cloud warehouse, and visualization.</p>
+						<ul style="color: #444; padding-left: 18px;">
+							<li>Batch ETL: DLT → S3 → Glue Catalog → Redshift</li>
+							<li>Data transformation with dbt</li>
+							<li>Orchestration with Airflow DAG</li>
+							<li>Infrastructure as Code with Terraform</li>
+							<li>Metabase dashboard for visualization</li>
+						</ul>
+						<div style="margin: 16px 0;">
+							<span style="background:#f0fdf4;color:#166534;border-radius:4px;padding:3px 8px;font-size:12px;margin:2px;display:inline-block;">DLT</span>
+							<span style="background:#f0fdf4;color:#166534;border-radius:4px;padding:3px 8px;font-size:12px;margin:2px;display:inline-block;">AWS S3</span>
+							<span style="background:#f0fdf4;color:#166534;border-radius:4px;padding:3px 8px;font-size:12px;margin:2px;display:inline-block;">Redshift</span>
+							<span style="background:#f0fdf4;color:#166534;border-radius:4px;padding:3px 8px;font-size:12px;margin:2px;display:inline-block;">dbt</span>
+							<span style="background:#f0fdf4;color:#166534;border-radius:4px;padding:3px 8px;font-size:12px;margin:2px;display:inline-block;">Airflow</span>
+							<span style="background:#f0fdf4;color:#166534;border-radius:4px;padding:3px 8px;font-size:12px;margin:2px;display:inline-block;">Terraform</span>
+							<span style="background:#f0fdf4;color:#166534;border-radius:4px;padding:3px 8px;font-size:12px;margin:2px;display:inline-block;">Metabase</span>
+						</div>
+						<a href="https://github.com/Kadipa/DOB-JOB-DE-Project" target="_blank" style="color: #166534; font-weight: 600; text-decoration: none;">
+							<i class="fab fa-github"></i> View on GitHub
+						</a>
 					</div>
 				</div>
 
 			</div>
 		</div>
 	</section>
-	<!--skills end -->
+	<!--projects end -->
 
 	<!--education start -->
 	<section id="education" class="education">
