@@ -41,6 +41,9 @@
 	.main-timeline:before {left:0.4%;}
 
 	.single-horizontal-timeline .experience-time,.single-horizontal-timeline .timeline-content {margin: 0;}
+
+	/* About section: extra bottom space when stacked */
+	.about-content .col-md-4 { margin-bottom: 16px; }
 }/*max-width:991px*/
 
 @media screen and (max-width:768px){
@@ -58,6 +61,15 @@
 	.profile-border{border: 0;}
 
 	.single-horizontal-timeline {max-width: 350px;margin: 30px auto;}
+
+	/* About section: remove padding on stacked bio column */
+	.about-content .col-md-8 { padding-left: 15px !important; padding-right: 15px !important; }
+
+	/* Hero height reduction */
+	.welcome-hero { height: auto; min-height: 480px; padding: 100px 0; }
+
+	/* Section headings slightly smaller */
+	.section-heading h2 { font-size: 22px; }
 
 }/*max-width:767px*/
 
@@ -79,7 +91,17 @@
 }/*max-width:540px*/
 
 @media screen and (max-width: 480px){
-	
+	/* About photo: constrain size */
+	.about-content .col-md-4 img { max-width: 200px; }
+
+	/* Project cards: tighter padding */
+	.single-project { padding: 20px; }
+
+	/* Knowledge sharing text */
+	#knowledge .col-md-4 { margin-bottom: 20px; }
+
+	/* Footer */
+	.hm-footer-copyright p { font-size: 13px; }
 }/*max-width:480px*/
 
 @media screen and (max-width: 440px){
