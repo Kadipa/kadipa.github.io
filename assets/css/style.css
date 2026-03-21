@@ -247,11 +247,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4f46e5;}
 --------------------------------------*/
 /* about start */
 .about {
-    padding: 50px 0 100px;
+    padding: 60px 0 80px;
 }
 
 .about-content {
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .single-about-img {
@@ -335,9 +335,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4f46e5;}
 }
 
 /* Additional styles for better spacing */
-.about-content {
-    padding-top: 50px;
-}
 
 .single-about-txt {
     padding-bottom: 20px;
@@ -350,10 +347,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4f46e5;}
 
 .education {
     background: #f8fafc;
-    padding-top:  50px;
+    padding: 60px 0 80px;
 }
 .education-horizontal-timeline {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 /*.education-horizontal-timeline*/
@@ -390,7 +387,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         Scholarship Info
 --------------------------------------*/
 .scholarship{
-     padding: 50px 0 100px;
+    padding: 60px 0 80px;
     border-top: 1px solid #e2e8f0;
     
 }
@@ -398,8 +395,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         Publication Info
 --------------------------------------*/
 .publication{
-    padding:  50px 0 100px;
-    border:  1px solid #e5ebf2;
+    padding: 60px 0 80px;
+    border: 1px solid #e5ebf2;
     
 }
 /*-------------------------------------
@@ -476,10 +473,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         7. Experience
 -------------------------------------*/
 .experience {
-    padding: 50px 0 100px;
+    padding: 60px 0 80px;
     border-top: 1px solid #e2e8f0;
 }
-.experience-content {padding-top: 100px;}
+.experience-content {padding-top: 40px;}
 .single-timeline-box {margin-bottom: 75px;}
 
 /*experience-time*/
