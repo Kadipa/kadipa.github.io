@@ -190,10 +190,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4f46e5;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/BackGround_IMG)no-repeat;
-    background-size:cover;
-    background-position: center;
-    height:890px;
+     background-image: url(../images/about/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 65% 30%;   
+	height:890px;
 }
 .welcome-hero:before{
     position:absolute;
