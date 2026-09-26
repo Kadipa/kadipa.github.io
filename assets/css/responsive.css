@@ -116,3 +116,38 @@
 @media screen and  (max-width: 320px){
 	
 }/*max-width:320px*/
+
+/* Phone & tablet hero: photo on the left, text on the right (mirrors desktop) */
+@media screen and (max-width:991px){
+	.welcome-hero {
+		height: auto;
+		min-height: calc(100vh - 80px);
+		padding: 0 0 64px;
+		align-items: flex-end;
+		background-color: #14262e;
+		/* photo slid left at the same scale as phone; the gradient behind it matches the photo's right edge to fill the gap */
+		background-image: url(../images/about/background.jpg),
+			linear-gradient(180deg, #19384a 0%, #294d63 25%, #2f5268 38%, #264b5e 50%, #1c3b4f 62%, #244757 75%, #31556d 88%, #2a4a5f 100%);
+		background-position: -14vw top, 0 0;
+		background-size: auto 100%, 100% 100%;
+	}
+	.welcome-hero:before {
+		background: linear-gradient(270deg,
+			rgba(15,23,42,.92) 0%,
+			rgba(15,23,42,.75) 35%,
+			rgba(15,23,42,.15) 65%,
+			rgba(15,23,42,.05) 100%);
+	}
+	.header-text { text-align: right; max-width: 60%; margin-left: auto; }
+	.header-text > br { display: none; }
+	.header-text h2 { font-size: clamp(24px, 6.5vw, 46px); line-height: 1.15; }
+	.header-text p { font-size: clamp(11px, 3vw, 15px); letter-spacing: 1px; margin: 14px 0 24px; }
+	.header-text a { width: 170px; height: 48px; line-height: 48px; }
+}/*max-width:991px*/
+
+/* Phone: photo is wider than the screen, so slide it left to keep the text side clear */
+@media screen and (max-width:599px){
+	.welcome-hero { background-size: cover; background-position: 92% top; }
+	/* flex parent would otherwise shrink the container to the text width and centre it */
+	.welcome-hero .container { width: 100%; padding-right: 20px; }
+}/*max-width:599px*/
