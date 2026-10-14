@@ -248,8 +248,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4f46e5;}
     .welcome-hero{
         /* gradient layer is sized to the photo (890px tall hero x 0.788 ratio) to hide its right edge */
         background-color: #14262e;
-        background-image: linear-gradient(270deg, #14262e 0%, rgba(20,38,46,0) 35%), url(../images/about/background.jpg);
-        background-size: 701px 100%, auto 100%;
+        background-image: linear-gradient(270deg, #14262e 0%, rgba(20,38,46,0) 35%), url(../images/about/BackGround_IMG.jpg);
+        background-size: 679px 100%, auto 100%;
         background-position: left top, left top;
     }
     .welcome-hero:before{
@@ -264,7 +264,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4f46e5;}
     .header-text p{margin: 24px 0 48px;}
 }
 @media screen and (min-width:992px) and (max-width:1199px){
-    .welcome-hero{background-size: 605px 100%, auto 100%;}
+    .welcome-hero{background-size: 586px 100%, auto 100%;}
     .header-text{max-width: 460px;}
     .header-text h2{font-size: 42px;}
 }
